@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript" src="./scripts.js"></script>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    
+    <body>
+        <form>
+            Cliente
+            <br><br>Nome: <input type="text" id="name"><br>
+            <br>Sobrenome : <input type="text" id="surname"><br>
+            <br>Documento: <input type="text" id="document"><br>
+        </form>
+
+        <br><button onclick="postClient()">Criar</button><br>
+        <br><button onclick="getClients()">Atualizar</button><br>
+
+        <table>
+            <tr id="client"></tr>
+        </table>
+    </body>
+</html>
